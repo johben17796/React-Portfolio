@@ -1,5 +1,10 @@
-export default function Project () {
+export default function Project(projects) {
     return (
-        "yes"
+        <>
+        <li>
+            {projects.map((project) => project)}
+        </li>
+        </>
     );
 }
+

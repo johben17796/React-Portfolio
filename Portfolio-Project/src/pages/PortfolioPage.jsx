@@ -1,66 +1,35 @@
-import { useState, useEffect } from 'react';
-
-import { Link } from 'react-router-dom';
-
+import Project from "../components/Project";
+import projectBox from "../components/projectBox";
 export default function PortfolioPage () {
     return (
-        <Project key={1} />
+        <Project projects={[
+            // this doesn't work yet !!! :(
+                {
+                    title: "preworkGuide",
+                    link: "https://github.com/johben17796/prework-study-guide"
+                },
+                {
+                    title: "EmployeeManager",
+                    link: "https://github.com/johben17796/Employee-Manager"
+                },
+                {
+                    title: "VehicleBuilder",
+                    link: "https://github.com/johben17796/Vehicle-Builder"
+                },
+                {
+                    title: "ReadMeGenerator",
+                    link: "https://github.com/johben17796/README-Generator"
+                },
+                {
+                    title: "weatherDashboard",
+                    link: "https://github.com/johben17796/weather-API-Dashboard"
+                },
+                {
+                    title: "ReactPortfolio",
+                    link: "https://github.com/johben17796/React-Portfolio"
+                }
+        ]}
+     />
+        
     );
 }
-<body>
-    <header>
-        <h1>Johben28</h1>
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="#resume">Resume</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="hero-banner"></section>
-
-return
-    <main class="page-section">
-        <section class="about-me">
-            <h2>About Me</h2>
-            <p>Lorem Ipsum I'm Ben I Rule This is placehlder</p>
-        </section>
-        <section class="flex-container">
-            <h2>Work</h2>
-            <section>
-                <section class="flex-item run-buddy">
-                    <header>Run Buddy</header>
-                    <p>Lorem Ipsum I'm Ben I Rule This is placehlder</p>
-                </section>
-
-                <section class="flex-item led-wall">
-                    <header>LED Wall</header>
-                    <p>Lorem Ipsum I'm Ben I Rule This is placehlder</p>
-                </section>
-                <section class="flex-item react-calc">
-                    <header>React Calc</header>
-                    <p>Lorem Ipsum I'm Ben I Rule This is placehlder</p>
-                </section>
-                <section class="flex-item pastel-puzzles">
-                    <header>Pastel Puzzles</header>
-                    <p>Lorem Ipsum I'm Ben I Rule This is placehlder</p>
-                </section>
-                <section class="flex-item surf-report">
-                    <header>Surf Report</header>
-                    <p>Lorem Ipsum I'm Ben I Rule This is placehlder</p>
-                </section>
-            </section>
-        </section>
-        <section class="contact">
-            <h2>Contact Me</h2>
-            <p>Lorem Ipsum I'm Ben I Rule This is placehlder</p>
-        </section>
-        <section class="resume">
-            <h2>Resume</h2>
-            <p>Lorem Ipsum I'm Ben I Rule This is placehlder</p>
-        </section>
-    </main>
-</body>
