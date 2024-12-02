@@ -1,5 +1,11 @@
-export default function header() {
+import NavBar from "./NavBar";
+
+export default function Header() {
     return (
-        "yes"
+        <header>
+            <h1>Johben17796</h1>
+            <NavBar />
+        </header>
+
     );
 }

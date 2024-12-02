@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function PortfolioPage () {
     return (
-        "yes"
+        <Project key={1} />
     );
 }
 <body>
