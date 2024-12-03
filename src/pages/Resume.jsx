@@ -1,7 +1,7 @@
 export default function ResumePage () {
     return (
         <>
-        <div class="center">
+        <div className="center">
             <h2>
                 Known Languages:
             </h2>

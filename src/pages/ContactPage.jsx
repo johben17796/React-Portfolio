@@ -1,7 +1,7 @@
 export default function ContactPage () {
     return (
         <div>
-        <form class="center">
+        <form className="center">
             <ul><label>Name:</label></ul>
             <ul><input type="text" /> </ul>
             
