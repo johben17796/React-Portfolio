@@ -22,7 +22,7 @@ Usage Information: N/A
 
 ## Contributing
 
-Thank you to the people in the class discord for helping with some code that I couldn't figure out
+Thank you to the people in the class discord for helping with some code that I couldn't figure out, Lucas and Mahesh in particular for the Portfolio and the NavBar stuff respectively
 
 ## Tests
 
