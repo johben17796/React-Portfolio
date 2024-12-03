@@ -6,6 +6,16 @@
   margin: auto
 }
 
+.project {
+  background-color: rgba(232, 187, 105, 0.888);
+  flex-wrap: wrap;
+  border: solid black;
+  margin: 10px auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 100px;
+  padding-right: 100px
+}
 /* brand color palette */
 :root {
   --primary: rgb(85, 129, 196);

@@ -1,16 +1,16 @@
-export default function Project(projects) {
+export default function Project() {
 //run renderProjectPiece on all projects in the array, then stick those onto the projectmount on the project page.
 function renderProjectPiece(project) {
     const title = project.title;
     const link = project.link;
     return (
         <>
-            <div className="card">
+            <div className="center project">
                 <div>
                     {title}
                 </div>
                 <div>
-                    <link href={link} />
+                    <a href={link}>View this on Github</a>
                 </div>
             </div>
         </>
@@ -51,6 +51,6 @@ const theArray = [
             link: "https://github.com/johben17796/React-Portfolio"
         }
 ]
-renderProjectsModule(theArray);
+return renderProjectsModule(theArray);
 }
 
